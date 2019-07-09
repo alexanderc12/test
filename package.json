@@ -1,11 +1,16 @@
-This is a placeholder text for your new file.
-
-What you need to know about creating files:
-
-1. You can change the name and extension of the file in the filename input above.
-2. Type / at the end of the filename to create a new directory.
-3. Click commit to push the file to the repository when you're ready.
-4. Syntax highlight will automatically adjust to the file extension.
-5. Commit description is useful for identification and future reference.
-
-Visit https://buddy.works/help for more info.
+{
+  "name": "Ejemplo",
+  "version": "1.0.0",
+  "description": "conduit on node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "stop": "lsof -ti :3000 | xargs kill"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "express": "4.13.4"
+  },
+  "devDependencies": {
+  }
+}
