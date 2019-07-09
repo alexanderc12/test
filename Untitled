@@ -1,0 +1,17 @@
+{
+  "name": "Ejemplo",
+  "version": "1.0.0",
+  "description": "conduit on node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "stop": "lsof -ti :3000 | xargs kill"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "express": "4.13.4"
+  },
+  "devDependencies": {
+
+  }
+}
